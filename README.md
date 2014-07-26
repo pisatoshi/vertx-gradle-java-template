@@ -12,3 +12,25 @@ messages with `pong!`.
 This template also shows you how to write tests in Java
 
 See the [build script](build.gradle) for the list of useful tasks
+
+-----
+
+## Add executable permission
+```bash
+chmod +x gradlew
+```
+
+## Update gradle wrapper
+```bash
+gradlew wrapper
+```
+
+## Build
+```bash
+gradlew assemble
+```
+
+## Execute module  
+```bash
+vertx runmod com.mycompany~my-module~1.0.0-final -cp build/mods/com.mycompany~my-module~1.0.0-final
+```
